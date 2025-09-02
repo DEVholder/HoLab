@@ -1,0 +1,47 @@
+# =========================================
+# Common / IDE
+# =========================================
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+.gemini/
+.tmp/
+
+# Environment variables
+# (각 하위 프로젝트의 .env 파일도 모두 무시됩니다)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+
+# =========================================
+# Frontend (Vite + React)
+# =========================================
+/frontend/node_modules
+/frontend/dist
+/frontend/yarn-error.log
+/frontend/yarn-debug.log*
+
+
+# =========================================
+# Backend (Python + FastAPI + uv)
+# =========================================
+# uv 가상 환경
+/backend/.venv
+
+# Python 캐시
+/backend/__pycache__/
+/backend/*.pyc
+
+# uv 캐시
+.uv_cache

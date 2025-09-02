@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "icon": "/icons/icon-monitoring.svg",
+    "title": "Uptime Kuma",
+    "description": "서버 및 서비스 상태를 모니터링하는 대시보드입니다.",
+    "type": "external",
+    "path": "http://monitoring.holab.local"
+  },
+  {
+    "id": 2,
+    "icon": "/icons/icon-files.svg",
+    "title": "File Browser",
+    "description": "웹을 통해 파일을 간편하게 관리하고 공유합니다.",
+    "type": "external",
+    "path": "http://files.holab.local"
+  },
+  {
+    "id": 3,
+    "icon": "/icons/icon-simple-crud.svg",
+    "title": "간단한 메모장",
+    "description": "GUI를 직접 제공하는 간단한 CRUD 애플리케이션입니다.",
+    "type": "internal",
+    "path": "/memo"
+  },
+  {
+    "id": 4,
+    "icon": "/icons/icon-portainer.svg",
+    "title": "Portainer",
+    "description": "Docker 컨테이너를 관리하기 위한 강력한 GUI 도구입니다.",
+    "type": "external",
+    "path": "http://docker.holab.local"
+  }
+]
